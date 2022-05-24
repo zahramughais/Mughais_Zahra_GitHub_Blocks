@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+h1, p {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(90, 90, 90);
+}
+img {
+    width: 9rem;
+    height: 9rem;
+}
+.row, .row-1, .row-2{
+    height: 9rem;
+    margin: 1.5rem;
+    padding: 1rem ;
+    display: flex;
+}
+.row {
+    background-color: lightblue;
+    justify-content: space-between;
+}
+.row-1 {
+    background-color: lightpink;
+    justify-content: space-evenly;
+}
+.row-2 {
+    background-color: white;
+    justify-content: space-around;
+}
